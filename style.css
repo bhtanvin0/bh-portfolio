@@ -5,15 +5,15 @@ body {
 
 h1 {
     font-size: 50px;
-    color: white;
+    color: black;
 }
 
 h3 {
-    color: white;
+    color: black;
 }
 
 p {
-    color: aliceblue;
+    color: black;
     line-height: 25px;
 }
 
@@ -23,8 +23,9 @@ section {
 
 .half {
     width: 50%;
-    padding-left: 3%;
+    padding-left: 5%;
     margin-top: 10%;
+    padding-right: 5%;
 }
 
 .half img {
@@ -33,7 +34,7 @@ section {
 
 .link-button {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 10px 20px;
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
@@ -41,12 +42,15 @@ section {
 
 }
 
-section {
-    background: black;
-    padding: 50px 20px;
-}
-
-.top-banner {
+.first-sec {
     background-image: url(/developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+    background-color: white;
+    margin-bottom: 70px;
+    ;
+}
+
+.second_sec {
+    background: white;
+    padding: 50px 20px;
 }
