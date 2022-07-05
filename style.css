@@ -4,9 +4,10 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     color: black;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .midlle {
